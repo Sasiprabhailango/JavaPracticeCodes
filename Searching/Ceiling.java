@@ -46,7 +46,7 @@ public class Ceiling {
               end = mid-1;
             }
         }
-      System.out.println("Binary code :"+value);
+      System.out.println("Binary code :"+value); // return end;
         
       }
 

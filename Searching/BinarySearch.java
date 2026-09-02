@@ -20,11 +20,12 @@ public class BinarySearch {
                     value = mid;
                     break;
                 }
-                else if(arr[mid]>target){
-                     end = mid-1;
+                else if(arr[mid]<target){
+                    start = mid+1;
+                     
                 }
                 else{
-                    start = mid+1;
+                    end = mid-1;
                 }
             }
           System.out.println("Binary Search :" +value);
